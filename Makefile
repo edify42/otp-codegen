@@ -1,7 +1,7 @@
 build: deps
 	go build
 deps:
-	glide install
+	go mod tidy
 
 install: deps
 	go install
